@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid grey;
+  width: 50%;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.page-footer {
+  border: 1px solid grey;
+  width: 50%;
+}
+
+img {
+  background-color: rgb (245, 245, 245);
+  width: 100%;
+}
+
+span {
+  color: rgb(88, 153, 223);
+}

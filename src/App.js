@@ -18,14 +18,18 @@ function App() {
 
         <footer className="main-footer">
           <div>
-            <span>Forgot my password</span>|<span>Sign Up</span>
+            <span id="forgot-password">Forgot my password</span>|
+            <span id="signup">Sign Up</span>
           </div>
           <div>&#169; 2019 A Company</div>
         </footer>
       </main>
       <footer className="page-footer">
-        Need Help? No problem! Email <span> support@acompany.com </span> or call
-        800-377-6915
+        Need Help? No problem! Email&nbsp;
+        <a href="" id="support-email">
+          support@acompany.com
+        </a>
+        &nbsp; or call 800-377-6915
       </footer>
     </div>
   );

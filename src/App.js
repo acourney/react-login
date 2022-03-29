@@ -6,11 +6,13 @@ function App() {
   return (
     <div className="App">
       <main>
-        <img
-          id="acompany-logo"
-          src="https://media.git.generalassemb.ly/user/21811/files/546c2880-af58-11ec-917c-d9bd1e9dbecd"
-          alt="A Company Logo"
-        />
+        <div id="img-container">
+          <img
+            id="acompany-logo"
+            src="https://media.git.generalassemb.ly/user/21811/files/546c2880-af58-11ec-917c-d9bd1e9dbecd"
+            alt="A Company Logo"
+          />
+        </div>
 
         <InputForm />
 
@@ -22,8 +24,8 @@ function App() {
         </footer>
       </main>
       <footer className="page-footer">
-        Need Help? No problem! Email <span>support@acompany.com</span> or call
-        00-377-6915
+        Need Help? No problem! Email <span> support@acompany.com </span> or call
+        800-377-6915
       </footer>
     </div>
   );
